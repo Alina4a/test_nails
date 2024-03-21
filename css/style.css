@@ -9,3 +9,256 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body { 
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  background-color: hsl(309, 76%, 95%);
+}
+
+img {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+  color: #FFFFFF;;
+  background: #f462de;
+  border: 0.5px;
+  border-color: #670e59;
+  border-radius: 15px;
+}
+
+button:hover,
+button:focus {
+  color: #FFFFFF;
+  background: #670e59;
+}
+
+.container {
+  width: 1240px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.border_container {
+  border: 1px solid #670e59;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+}
+
+/* =========== Page header Style ========== */
+
+.header-container {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+
+}
+
+.page-nav {
+  align-items: center;
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.7;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: rgb(43, 255, 0);
+  margin-right: 76px;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.menu_punkt {
+  padding: 24px 0;
+}
+
+.menu_link {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: black;
+  padding: 24px 0;
+}
+
+.menu_link:hover,
+.menu_link:focus {
+  color: #f462de;
+}
+
+.menu_adress {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: black; 
+
+}
+
+/* =========== /Page header Style ========== */
+
+/* =========== Hero header Style ========== */
+.hero_container {
+  text-align: center;
+  height: 400px;
+  background-image: url(../images/hero/hero.png);
+  background-size: cover;
+  border-radius: 15px;
+  border: 1px solid #670e59;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgb(209, 249, 201);
+}
+
+.hero_title {
+  max-width: 700px;
+  font-weight: 700;
+  font-size: 56px;
+  letter-spacing: 0.02em;
+  color: #670e59;
+  text-align: center;
+  line-height: 1.07;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  margin-top: 100px;
+
+}
+
+.hero_button {
+  min-width: 169px;
+  background-color: #f7c7f0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  padding-left: 32px;
+  padding-right: 32px;
+  height: 56px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+}
+
+/* =========== /Hero header Style ========== */
+
+/* =========== Team header Style ========== */
+
+.team_container {
+
+}
+
+.title {
+  border-radius: 15px;
+  border: 1px solid;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  line-height: 1.11;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.team_punkt {
+  text-align: center;
+  border-color: #f7c7f0;
+  border-radius: 15px;
+  border: 1px solid;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.team_title {
+  border-radius: 15px;
+  border-color: #670e59;
+  margin: 2px;
+  padding: 3px;
+}
+
+
+/* =========== /Team header Style ========== */
+
+/* =========== Portfolio header Style ========== */
+
+.portfolio_title {
+  text-align: center;
+  font-size: 400;
+  background-color: #f462de;
+  border-radius: 15px;
+  border: 1px #670e59;
+  padding: 25px;
+  margin: 25px;
+}
+
+.portfolio_foto {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  box-shadow:
+    5px 10px #670e59,
+    inset -3px -5px 4px #670e59;
+}
+
+
+/* =========== /Portfolio header Style ========== */
+
+/* ===========  Studio Style ========== */
+.studio_container {
+}
+.studio_foto {
+  border-radius: 15px;
+}
+
+.text_style {
+  font-size: 40px;
+  text-align: center;
+  border-radius: 15px;
+  border: 1px solid;
+  border-color: #670e59;
+  margin: 20px;
+  padding: 10px;
+}
+
+/* ===========  /Studio Style ========== */
+
+/* ===========  Footer Style ========== */
+.footer_punkt {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: black;
+  padding: 24px 0;
+  margin-left: 40px;
+  margin-right: 40px;
+}

@@ -21,49 +21,119 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <div>
-            <nav>
-                <a href="./index.html">Nails<span style="color: rgb(160, 15, 182);">Studio</span></a>
-                <ul>
-                    <li>
-                        <a href="./index.html">Studio</a>
+    <header class="container border_container">
+        <div class="header-container">
+            <nav class="page-nav">
+                <a class="logo" href="./index.html">Nails<span style="color: #670e59;">Studio</span></a>
+                <ul class="menu">
+                    <li class="menu_punkt">
+                        <a class="menu_link" href="#studio">Studio</a>
                     </li>
-                    <li>
-                        <a href="">Portfolio</a>
+                    <li class="menu_punkt">
+                        <a class="menu_link" href="#portfolio">Portfolio</a>
                     </li>
-                    <li>
-                        <a href="">Contacts</a>
+                    <li class="menu_punkt">
+                        <a class="menu_link" href="contacts">Contacts</a>
                     </li>
                 </ul>
             </nav>
-            <address>
-                <ul>
-                    <li>
-                        <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <address class="menu_adress">
+                <ul class="menu">
+                    <li class="menu_punkt">
+                        <a class="menu_link" href="tel:+110001111111">&#9990; +11 (000) 111-11-11</a>
                     </li>
                 </ul>
             </address>
         </div>
     </header>
-    <div class="container hero">
+    <div class="container hero_container">
         <h1 class="hero_title">The best nails in the city are done here</h1>
-        <button class="buthero" type="button">Order Service</button>
+        <button class="hero_button" type="button">Order Service</button>
     </div>
     <main>
-        <section>
-            <h2>Our Team</h2>
+        <section class="container">
+            <h2 class="title">Our Team</h2>
+            <ul class="menu">
+                <li class="team_punkt">
+                    <img src="images/team/anna.jpg" alt="nail artist Anna" width="260" height="300">
+                    <h3 class="team_title">Anna</h3>
+                </li>
+                <li class="team_punkt">
+                <img src="images/team/margo.jpg" alt="nail artist Margo" width="260" height="300">
+                <h3 class="team_title">Margo</h3>
+                </li>
+                <li class="team_punkt">
+                <img src="images/team/viki.jpg" alt="nail artist Viki" width="260" height="300">
+                <h3 class="team_title">Viki</h3>
+                </li>
+            </ul>
         </section>
-        <section>
-            <h2>Nail Studio services</h2>
+        <section class="container">
+            <h2 class="title" id="portfolio">Nail Studio services</h2>
+            <ul>
+                <li>
+                    <h3 class="portfolio_title">Manicure</h3>
+                    <img class="portfolio_foto" src="images/portfolio/nails_first.png" alt="manicure in city" width="800" height="300">
+                </li>
+                <li>
+                    <h3 class="portfolio_title">Nail Design</h3>
+                    <img class="portfolio_foto" src="images/portfolio/nails_second.png" alt="nail design" width="800" height="300">
+                    
+                </li>
+                <li>
+                    <h3 class="portfolio_title">Nail Extension</h3>
+                    <img class="portfolio_foto" src="images/portfolio/nails_third.png" alt="nail extension" width="800" height="300">
+                </li>
+            </ul>
         </section>
-        <section>
-            <h2>Achievements of Nails Studio</h2>
+        <section class="container">
+            <h2 class="title">Achievements of Nails Studio</h2>
+            <ul class="menu">
+                <li class="team_punkt">
+                    <img src="../images/cubi/cubi_third.png" alt="Achievements" width="260" height="300">
+                    <h3 class="team_title">2022</h3>
+                </li>
+                <li class="team_punkt">
+                    <img src="../images/cubi/cubi_second.png" alt="Achievements" width="260" height="300">
+                    <h3 class="team_title">2023</h3>
+                </li>
+                <li class="team_punkt">
+                    <img src="../images/cubi/cubi_first.png" alt="Achievements" width="260" height="300">
+                    <h3 class="team_title">2024</h3>
+                </li>
+            </ul>
+        </section>
+        <section class="container studio_container">
+            <h2 class="title" id="studio">Nails Studio</h2>
+            <img class="studio_foto" src="images/studio/studio.png" alt="nail studio in the city" width="1200">
+            <h4 class="text_style">Our goal at The Nail Studio is to create a fun and relaxed environment. Clients can be pampered, be themselves, and
+            leave with exceptional nails. Quality products and true relationships are what we offer when you walk through our doors.</h4>
+            <video src="../video/hero.mp4" controls width="1200" poster="images/studio/poster_nails.png">
+                Your browser does not support the audio element
+            </video>
+            <p class="text_style">
+            With over 20 years of combined experience, The Nail Studio is a dedicated nail salon, creating cutting edge nail designs
+            for locals and influencers worldwide. The Nail Studio team has a true passion for beauty and stays on top of trends by
+            constantly revitalizing their style and skills. Book your appointment today!
+        </p>
+        <div>
+            <button class="hero_button" type="button">Order Service</button>
+        </div>
         </section>
     </main>
-    <footer class="">
-        <div class="">
-            <a class="logo" href="./index.html">Nails<span style="color: rgb(160, 15, 182);">Studio</span></a>
+    <footer class="container border_container">
+        <div class="footer_nav">
+            <ul class="menu">
+                <li class="footer_punkt">
+                    <a class="logo" href="./index.html">Nails<span style="color: #670e59;">Studio</span></a>
+                </li>
+                <li class="footer_punkt">
+                    <a class="contact" href="mailto:info@nailstudio.com">info@nailstudio.com</a>
+                </li>
+                <li class="footer_punkt">
+                    <a class="menu_link" id="contacts" href="tel:+110001111111">&#9990;+11 (000) 111-11-11</a>
+                </li>
+            </ul>
         </div>
     </footer>
 
